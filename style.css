@@ -1,0 +1,81 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: auto;
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background-image: radial-gradient(
+      #9c9ca8 0.8500000000000001px,
+      transparent 0.8500000000000001px
+    ),
+    radial-gradient(#999999 0.8500000000000001px, #bdbdbd 0.8500000000000001px);
+  background-size: 34px 34px;
+  background-position: 0 0, 17px 17px;
+}
+
+.index-information,
+.about-information,
+.contact-information,
+.code-information {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.index-link-container,
+.about-link-container,
+.contact-link-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.index-link,
+.about-link,
+.contact-link,
+.code-link {
+  text-align: center;
+  width: 150px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+  background-color: #bdbdbd;
+  border: solid 2px black;
+  border-radius: 15px;
+  padding: 5px;
+  filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5));
+}
+
+.index-link:visited,
+.about-link:visited,
+.contact-link:visited,
+.code-link:visited {
+  color: black;
+}
+
+.index-link:active,
+.about-link:active,
+.contact-link:active,
+.code-link:active {
+  filter: invert();
+}
+
+.code {
+  font-size: 2.5rem;
+  font-weight: 900;
+  align-self: center;
+}
+
+.code-link {
+  margin-top: 20px;
+  align-self: center;
+}
