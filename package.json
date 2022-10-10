@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/Goik28/Odin-BasicInformationalSite/issues"
   },
-  "homepage": "https://github.com/Goik28/Odin-BasicInformationalSite#readme"
+  "homepage": "https://github.com/Goik28/Odin-BasicInformationalSite#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
